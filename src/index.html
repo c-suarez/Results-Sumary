@@ -1,99 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Results summary component</title>
-  <link rel="stylesheet" href="./css/estilos.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body class="font-hanken bg-gray-100 py-8">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-  <section class="[90%] max-w-md mx-auto bg-white 
-  shadow-2xl md:flex md:rounded-2xl md:max-w-4xl">
-    <article class="bg-gradient-to-b from-light-slate-blue to-light-royal-blue rounded-b-2xl
-    p-10 text-white text-center md:rounded-2xl 
-    md:w-1/2 md:grid md:content-center">
-      <p class="text-xl font-bold text-light-lavender">Your Result</p>
-      <div class="w-36 aspect-square bg-gradient-to-b from-violet-blue
-      to-persian-blue rounded-full mx-auto my-8 grid 
-      content-center md:w-56">
-        <p class="text-5xl font-bold mb-2
-        md:text-7xl">76</p>
-        <p class="font-bold text-light-lavender">of 100</p>
-      </div>
-      <h3 class="text-3xl mb-4 font-bold">Great</h3>
-      <p class="text-light-lavender">You scored higher than 65% of the people who have taken these tests.</p>
+    <title>Frontend Mentor | Results summary component</title>
+    <link rel="stylesheet" href="./css/estilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
-    </article>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="font-hanken bg-gray-100 py-8">
+    <section
+      class="[90%] max-w-md mx-auto bg-white shadow-2xl md:flex md:rounded-2xl md:max-w-4xl"
+    >
+      <article
+        class="bg-gradient-to-b from-light-slate-blue to-light-royal-blue rounded-b-2xl p-10 text-white text-center md:rounded-2xl md:w-1/2 md:grid md:content-center"
+      >
+        <p class="text-xl font-bold text-light-lavender">Your Result</p>
+        <div
+          class="w-36 aspect-square bg-gradient-to-b from-violet-blue to-persian-blue rounded-full mx-auto my-8 grid content-center md:w-56"
+        >
+          <p class="text-5xl font-bold mb-2 md:text-7xl">76</p>
+          <p class="font-bold text-light-lavender">of 100</p>
+        </div>
+        <h3 class="text-3xl mb-4 font-bold">Great</h3>
+        <p class="text-light-lavender">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </article>
 
-    <article class="p-10 grid gap-6 md:w-1/2">
-      <h3 class="text-xl font-bold">Summary</h3>
+      <article class="p-10 grid gap-6 md:w-1/2">
+        <h3 class="text-xl font-bold">Summary</h3>
 
-      <div class="bg-light-red/5 rounded-xl
-      flex py-4 px-6 items-center">
-        <img src="./assets/images/icon-reaction.svg">
-      <p class="ml-3 text-lg text-light-red">Reaction</p>
-      <p class="ml-auto font-bold text-dark-gray-blue">
-                80
-        <span>/ 100</span>
-      </p>
-      
-      </div>
-      <div class="bg-orangey-yellow/5 rounded-xl
-      flex py-4 px-6 items-center">
-        <img src="./assets/images/icon-memory.svg">
-      <p class="ml-3 text-lg text-orangey-yellow">Memory</p>
-      <p class="ml-auto font-bold text-dark-gray-blue">
-                92
-        <span>/ 100</span>
-      </p>
-      
-      </div>
-      <div class="bg-green-teal/5 rounded-xl
-      flex py-4 px-6 items-center">
-        <img src="./assets/images/icon-verbal.svg">
-      <p class="ml-3 text-lg text-green-teal">Verbal</p>
-      <p class="ml-auto font-bold text-dark-gray-blue">
+        <div class="bg-light-red/5 rounded-xl flex py-4 px-6 items-center">
+          <img src="./assets/images/icon-reaction.svg" />
+          <p class="ml-3 text-lg text-light-red">Reaction</p>
+          <p class="ml-auto font-bold text-dark-gray-blue">
+            80
+            <span>/ 100</span>
+          </p>
+        </div>
+        <div class="bg-orangey-yellow/5 rounded-xl flex py-4 px-6 items-center">
+          <img src="./assets/images/icon-memory.svg" />
+          <p class="ml-3 text-lg text-orangey-yellow">Memory</p>
+          <p class="ml-auto font-bold text-dark-gray-blue">
+            92
+            <span>/ 100</span>
+          </p>
+        </div>
+        <div class="bg-green-teal/5 rounded-xl flex py-4 px-6 items-center">
+          <img src="./assets/images/icon-verbal.svg" />
+          <p class="ml-3 text-lg text-green-teal">Verbal</p>
+          <p class="ml-auto font-bold text-dark-gray-blue">
             61
-        <span>/ 100</span>
-      </p>
-      
-      </div>
-      <div class="bg-cobalt-blue/5 rounded-xl
-      flex py-4 px-6 items-center">
-        <img src="./assets/images/icon-visual.svg">
-      <p class="ml-3 text-lg text-cobalt-blue">Visual</p>
-      <p class="ml-auto font-bold text-dark-gray-blue">
+            <span>/ 100</span>
+          </p>
+        </div>
+        <div class="bg-cobalt-blue/5 rounded-xl flex py-4 px-6 items-center">
+          <img src="./assets/images/icon-visual.svg" />
+          <p class="ml-3 text-lg text-cobalt-blue">Visual</p>
+          <p class="ml-auto font-bold text-dark-gray-blue">
             72
-        <span>/ 100</span>
-      </p>
-      
-      </div>
-      <a href="#" class="bg-dark-gray-blue
-       text-white rounded-full py-5 
-       text-center font-bold hover:bg-gradient-to-b from-light-slate-blue
-       to-light-royal-blue">Continue</a>
-    </article>
-  </section>
+            <span>/ 100</span>
+          </p>
+        </div>
+        <a
+          href="#"
+          class="bg-dark-gray-blue text-white rounded-full py-5 text-center font-bold hover:bg-gradient-to-b from-light-slate-blue to-light-royal-blue"
+          >Continue</a
+        >
+      </article>
+    </section>
 
+    <br />
 
-  <br>
- 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
 </html>
